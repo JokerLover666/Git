@@ -1,0 +1,59 @@
+# ===== Python 编译产物 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== 打包 / 分发 =====
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== 虚拟环境（不要提交，用 requirements.txt 还原） =====
+.venv/
+venv/
+ENV/
+env/
+.Python
+
+# ===== 测试与覆盖率 =====
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# ===== 类型检查 / 格式化工具缓存 =====
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pytype/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== 密钥与本地配置（重要：不要提交密码 / token） =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===== 编辑器 / IDE 本地设置 =====
+.idea/
+.vscode/
+*.swp
+
+# ===== 日志与临时文件 =====
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===== 操作系统产生的垃圾文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
